@@ -7,22 +7,15 @@
 # Inherit from violet device
 $(call inherit-product, device/xiaomi/violet/device.mk)
 
-# Inherit some common Resurrection stuff.
-$(call inherit-product, vendor/rr/config/common_full_phone.mk)
+# Inherit some common NusantaraROM stuff.
+$(call inherit-product, vendor/nusantara/config/common_full_phone.mk)
+NAD_BUILD_TYPE := OFFICIAL
 
 # Bootanimation Resolution
 TARGET_BOOT_ANIMATION_RES := 1080
-TARGET_GAPPS_ARCH := arm64
-
-# RR Stuffs
-TARGET_FACE_UNLOCK_SUPPORTED := true
-RR_BUILDTYPE := Official
-
-# RR Wallpapers
-BUILD_RR_WALLPAPERS := true
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := rr_violet
+PRODUCT_NAME := nad_violet
 PRODUCT_DEVICE := violet
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi Note 7 Pro

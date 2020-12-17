@@ -35,9 +35,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     android.hardware.biometrics.fingerprint@2.1-service.xiaomi_sm6150
 
-# Signing Keys
-PRODUCT_DEFAULT_DEV_CERTIFICATE := vendor/oss/keys/releasekey
-
 # Screen Recorder
 PRODUCT_PACKAGES += \
     ScreenRecorder  

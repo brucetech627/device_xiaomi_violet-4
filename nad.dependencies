@@ -10,6 +10,6 @@
   {
     "repository": "android_kernel_xiaomi_sm6150",
     "target_path": "kernel/xiaomi/sm6150",
-    "branch":"ten"
+    "branch":"10"
   }
 ]

@@ -22,11 +22,5 @@
     "repository": "LineageOS/android_hardware_xiaomi",
     "target_path": "hardware/xiaomi",
     "branch":"lineage-17.1"
-  },
-  {
-    "remote":"github",
-    "repository": "StatiXOS/android_external_ant-wireless_ant_native.git",
-    "target_path": "external/ant-wireless/ant/native",
-    "branch":"10"
   }
 ]

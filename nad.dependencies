@@ -1,14 +1,19 @@
 [
   {
-    "repository": "android_device_xiaomi_sm6150-common",
+    "remote":"github", 
+    "repository": "NusantaraROM-Devices/android_device_xiaomi_sm6150-common",
     "target_path": "device/xiaomi/sm6150-common"
+    "branch":"10"
   },
   {
-    "repository" : "vendor_xiaomi_violet",
+    "remote":"github", 
+    "repository": "NusantaraROM-Devices/vendor_xiaomi_violet",
     "target_path": "vendor/xiaomi/violet"
+    "branch":"10"
   },
   {
-    "repository": "android_kernel_xiaomi_sm6150",
+    "remote":"github", 
+    "repository": "NusantaraROM-Devices/android_kernel_xiaomi_sm6150",
     "target_path": "kernel/xiaomi/sm6150",
     "branch":"10"
   }

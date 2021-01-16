@@ -8,7 +8,7 @@
   {
     "remote":"github", 
     "repository": "NusantaraROM-Devices/vendor_xiaomi_violet",
-    "target_path": "vendor/xiaomi/violet",
+    "target_path": "vendor/xiaomi",
     "branch":"10"
   },
   {

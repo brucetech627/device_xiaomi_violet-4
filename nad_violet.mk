@@ -10,6 +10,7 @@ $(call inherit-product, device/xiaomi/violet/device.mk)
 # Inherit some common NusantaraROM stuff.
 $(call inherit-product, vendor/nusantara/config/common_full_phone.mk)
 NAD_BUILD_TYPE := OFFICIAL
+TARGET_GAPPS_ARCH := arm64
 
 # Bootanimation Resolution
 TARGET_BOOT_ANIMATION_RES := 1080

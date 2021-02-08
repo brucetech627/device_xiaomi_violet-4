@@ -4,6 +4,8 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+ALLOW_MISSING_DEPENDENCIES := true
+
 # Display density
 TARGET_SCREEN_DENSITY := 440
 

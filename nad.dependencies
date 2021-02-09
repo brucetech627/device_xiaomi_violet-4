@@ -26,19 +26,19 @@
   {
    "remote":"github",
    "repository": "LineageOS/android_hardware_qcom_display",
-   "target_path": "hardware/qcom-caf/sm8150/display",
+   "target_path": "hardware/qcom-caf/sm8150_violet/display",
    "branch":"lineage-17.1-caf-sm8150"
   },
   {
    "remote":"github",
    "repository": "LineageOS/android_hardware_qcom_media",
-   "target_path": "hardware/qcom-caf/sm8150/media",
+   "target_path": "hardware/qcom-caf/sm8150_violet/media",
    "branch":"lineage-17.1-caf-sm8150"
   },
   {
    "remote":"github", 
    "repository": "LineageOS/android_hardware_qcom_audio",
-   "target_path": "hardware/qcom-caf/sm8150/audio",
+   "target_path": "hardware/qcom-caf/sm8150_violet/audio",
    "branch":"lineage-17.1-caf-sm8150"
   }  
 ]
